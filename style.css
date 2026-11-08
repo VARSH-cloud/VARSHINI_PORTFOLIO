@@ -1328,3 +1328,51 @@ footer {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+/* TRANSPARENT JOURNEY COUNTERS */
+
+.journey-stats {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px 35px;
+  margin-top: 30px;
+}
+
+.journey-stat {
+  background: transparent !important;
+  border: none !important;
+  border-radius: 0;
+  padding: 12px 0;
+  min-height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.journey-stat strong {
+  font-size: clamp(48px, 6vw, 76px);
+  font-weight: 900;
+  line-height: 1;
+  color: transparent;
+  -webkit-text-stroke: 2px #7960ed;
+  transition: transform 0.3s ease;
+}
+
+.journey-stat:hover strong {
+  transform: translateY(-5px);
+}
+
+.journey-stat span {
+  color: #17172d;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+}
+
+@media (max-width: 600px) {
+  .journey-stats {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
