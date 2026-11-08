@@ -1270,3 +1270,61 @@ footer {
         height: 85px;
     }
 }
+
+/* MY JOURNEY AT A GLANCE */
+
+.journey-card {
+  background: #e9e5ff !important;
+  border: 1px solid #d7ceff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.journey-card h3 {
+  margin-bottom: 10px;
+}
+
+.journey-stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-top: 22px;
+}
+
+.journey-stat {
+  background: #111329;
+  color: white;
+  border-radius: 16px;
+  padding: 18px 12px;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6px;
+}
+
+.journey-stat strong {
+  font-size: 30px;
+  color: #c8bcff;
+  line-height: 1;
+}
+
+.journey-stat span {
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.journey-note {
+  margin-top: 20px;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  color: #6551c9;
+}
+
+@media (max-width: 600px) {
+  .journey-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
