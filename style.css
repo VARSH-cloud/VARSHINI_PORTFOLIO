@@ -1271,3 +1271,24 @@ footer {
     }
 }
 
+/* ABOUT SECTION SPACING */
+#about {
+  padding-top: 80px;
+}
+
+/* ABOUT SECTION LABEL */
+#about .kicker {
+  color: #7055ed !important;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+/* KEEP SECTION HEADING SPACED */
+#about .section-head {
+  margin-bottom: 35px;
+}
+
+
