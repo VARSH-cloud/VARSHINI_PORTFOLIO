@@ -1291,4 +1291,16 @@ footer {
   margin-bottom: 35px;
 }
 
+section#about.dark {
+  padding-top: 100px !important;
+}
 
+section#about .about-heading .about-kicker {
+  display: block !important;
+  color: #7055ed !important;
+  font-size: 13px !important;
+  font-weight: 800 !important;
+  letter-spacing: 2px !important;
+  text-transform: uppercase !important;
+  margin-bottom: 20px !important;
+}
