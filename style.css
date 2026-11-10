@@ -1306,3 +1306,9 @@ section#about.dark {
   margin-bottom: 18px !important;
   line-height: 1.4;
 }
+
+/* EXTRA SPACE BEFORE ABOUT SECTION */
+#about {
+  padding-top: 70px !important;
+}
+
