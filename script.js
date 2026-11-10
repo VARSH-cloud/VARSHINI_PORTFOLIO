@@ -4,8 +4,8 @@ const nav = document.getElementById('navlinks');
 menuBtn.addEventListener('click', () => { const open = nav.classList.toggle('open'); menuBtn.setAttribute('aria-expanded', String(open)); });
 nav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => { nav.classList.remove('open'); menuBtn.setAttribute('aria-expanded', 'false'); }));
 if ('IntersectionObserver' in window) {
-    const observer = new IntersectionObserver(entries => entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); } }), { threshold: .12 });
-    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+ const observer = new IntersectionObserver(entries => entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); } }), { threshold: .12 });
+ document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 } else { document.querySelectorAll('.reveal').forEach(el => el.classList.add('visible')); }
 // Custom syringe follows the mouse across the page on desktop. It stays hidden on touch devices.
 const syringe = document.getElementById('cursorSyringe');
