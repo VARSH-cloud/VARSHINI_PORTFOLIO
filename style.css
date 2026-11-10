@@ -1311,4 +1311,11 @@ section#about.dark {
 #about {
   padding-top: 70px !important;
 }
+/* FORCE SPACE BETWEEN SEVAX AND ABOUT */
+section#about {
+    margin-top: 80px !important;
+    padding-top: 40px !important;
+    position: relative;
+    clear: both;
+}
 
