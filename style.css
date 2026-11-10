@@ -1295,12 +1295,14 @@ section#about.dark {
   padding-top: 100px !important;
 }
 
-section#about .about-heading .about-kicker {
-  display: block !important;
+/* ABOUT SECTION KICKER - MATCH SECTION 05 */
+
+#about .section-head .kicker {
   color: #7055ed !important;
   font-size: 13px !important;
   font-weight: 800 !important;
   letter-spacing: 2px !important;
   text-transform: uppercase !important;
-  margin-bottom: 20px !important;
+  margin-bottom: 18px !important;
+  line-height: 1.4;
 }
